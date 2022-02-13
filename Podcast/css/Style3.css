@@ -1,0 +1,510 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+header{ 
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: #14141f;
+    z-index: 1;
+}
+
+.headerprp{
+    font-size: 32px;
+}
+.headertexto:hover{
+    color: #3bb4b4;
+    text-decoration:overline;
+    font-size: 20px;
+    
+} 
+
+
+nav{
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    
+}
+
+nav ul li{
+    padding: 80px;
+    display: inline;
+    padding-left: 90px;
+    
+}
+
+
+nav b{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+nav a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+form{
+    position: absolute;
+    left: 536px;
+    top:26px;
+    display:flex;
+    z-index: 1;
+}
+
+.pesquisa{
+    width: 603px;
+    display: flex;
+    flex-direction: column;
+    border: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#texto{
+    float: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    outline: 0;
+}
+
+
+
+/*lupa */
+nav>div>c {
+    position: absolute;
+    width: 28px;
+    height: 30px;
+    left: 496px;
+    top: 28px;
+    display: flex;
+    z-index: 1;
+
+}
+
+/*microfone */
+nav > div > d{
+
+position: absolute;
+left: 200px;
+top: 26px;
+width :23px;
+height:33px;
+display:flex;
+
+}
+
+#episodios {
+    position: absolute;
+    width: 100%;
+    height: 2400px;
+    left: 0px;
+    top: 0px;
+    background: #1e1e26;
+    
+}
+
+h1{
+padding-left: 40px;
+position: absolute;
+height: 39px;
+left: 200px;
+top: 200px;
+text-decoration: none;
+font-family: Lato;
+font-style: bold;
+font-weight: normal;
+font-size: 48px;
+line-height: 42px;
+color: #FFFFFF;
+
+}
+
+#episodios b {
+    z-index: 1;
+    position:absolute;
+    width: 1420px;
+    height: 1780px;
+    top: 350px;
+    left: 200px;
+    padding-left: 100px;
+    
+}
+
+.card{
+    width: 620px;
+    background-color:#1e1e26 ;
+    display: inline-block;
+    
+}
+
+
+#episodios p{
+    
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;       
+    color: #3bb4b4;
+}
+
+.cards-btn{
+    width: 605px;
+    margin-left: -40px;
+}
+#episodios ul li{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+
+#episodios ul li a{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;       
+    color: #1e1e26;
+    border-style: solid;
+    
+}
+
+#btnvermais{
+    position: relative;
+    top: 300px;
+    left: -700px;
+    text-align: center;
+    background-color: #14141f;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;       
+    color: #ffffff;
+    border-color: #3bb4b4;
+    width: 160px;
+    
+    
+}
+
+.cardsoct{
+    position: relative;
+    top: 100px;
+    width: 620px;
+    display: none;
+    
+}
+.cardsoct1{
+    position: relative;
+    top: 100px;
+    width: 620px;
+    display: none;
+    
+}
+
+.cardsoct2{
+    position: relative;
+    top: 200px;
+    width: 620px;
+    display: none;
+    
+}
+
+.cardsoct3{
+    position: relative;
+    top: 200px;
+    width: 620px;
+    display: none;
+    
+}
+
+/* PLAYER DE AUDIO */
+
+#player{
+    position: fixed;
+    top: 895px;
+    width: 100%;
+    height: 80px;
+    left: -2px;
+    z-index: 1;
+    background-color: #14141f;
+    border: 2px solid #d5d5d5;
+    display: none;
+    
+}
+
+.main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    
+}
+
+.main button{
+    padding: 10px 12px;
+    margin: 0 10px;
+    height: 20px;
+}
+
+
+
+.right , .left{
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 40px;
+}
+
+.left img{
+    position: relative;
+    top: 25px;
+    left: -400px;
+    height: 60px;
+    width: 60px;
+    border-radius:10px ;
+    
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 50%;
+    outline: none;
+    height: 2px;
+    margin: 0 15px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right input[type="range"]{
+    width: 40%;
+}
+
+.left .volume{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.left .volume p{
+    font-size: 15px;
+
+}
+
+.left .volume i{
+    cursor: pointer;
+    padding: 4px 6px;
+    background: transparent;
+    height: 15px;
+}
+
+.left .volume i:hover{
+    background:rgba(245,245,245,0.1) ;
+}
+
+.volume #volume_show{
+    padding: 0px 12px;
+    margin-right: 5px;
+    background: rgba(245,245,245,0.1);
+    font-size:15px ;
+}
+
+.right .middle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.right .middle button{
+    position: relative;
+    top: 25px;
+    left: 180px;
+    border: none;
+    height: 55px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background-color: rgba(245,245,245,0.1);
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    
+    
+}
+
+.right #title{
+    position: absolute;
+    top: 5px;
+    left: -350px;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+    font-size:15px ;
+    font-family: Lato;
+    font-weight: normal;
+    
+}
+
+.right #artist{
+    position: absolute;
+    top:30px;
+    left: -350px;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+    font-size:15px;
+    font-family: Lato;
+    font-weight: normal;
+}
+
+.right .duration{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180%;
+    height: 20px;
+    margin-top: 40px;
+}
+
+.right .duration p{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.right #auto{
+    font-size: 14px;
+    cursor: pointer;
+    margin-top:0px ;
+    border: none;
+    padding: 10px 14px;
+    color: #fff;
+    background: rgba(245,245,245,0.1);
+    outline: none;
+    border-radius: 10px;
+    font-family: Lato;
+    font-weight: normal;
+    font-style: bold;
+}
+
+.right #auto i{
+    margin-left:8px;
+}
+
+
+.right button:hover{
+        background: rgba(255, 255, 0, 0.63);
+}
+
+.right i::before{
+    color: #fff;
+    font-size: 20px;
+}
+
+.right .show_song_no{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    width: 20px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    font-size:15px;
+    font-family: Lato;
+    font-weight: normal;
+}
+
+.right .show_song_no p:nth-child(2){
+    margin: 0 5px;
+}
+
+#close:hover{
+    background-color: rgba(255, 230, 1, 0.712);
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#close i{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    color: black;
+    
+}
+
+/* FIM DO PLAYER */

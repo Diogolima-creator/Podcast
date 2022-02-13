@@ -1,0 +1,327 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+header{ 
+    position: fixed;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: #14141f;
+    z-index: 1;
+    
+}
+
+.headerprp{
+    font-size: 32px;
+}
+.headertexto:hover{
+    color: #ffffffe0;
+    text-decoration:overline;
+    font-size: 20px;
+    
+} 
+
+nav{
+    position: relative;
+    display: inline-block;
+    top: 15px;
+
+}
+
+nav ul li{
+    position: relative;
+    left: 650px;
+    padding: 80px;
+    display: inline;
+    padding-left: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav b{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body{
+    width: 1221px;
+    height: 1000px;
+    background-color: rgba(6, 21, 54, 0.945);
+}
+
+
+form{
+    padding-top: 20px;
+    padding-left: 95px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(255, 255, 255); 
+    letter-spacing: 1px;
+    
+}
+    
+form input{
+    border-radius: 3px;
+    margin-top: 0px;
+    border:none;
+    background: #eee;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+h1{
+    padding-top: 55px;
+    padding-left:125px ;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: rgb(255, 255, 255); 
+}
+
+#login{
+    position: absolute;
+    top: 250px;
+    left:530px;
+    height: 550px;
+    width: 550px;
+    background: #0f0f22;
+    
+}
+
+#campos2{
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    width: 950px;
+    height: 390px;
+    background: #16162e;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    display: none;
+}
+
+#formularioCadastro{
+    position: relative;
+    top: -20px;
+    z-index: 1;
+}
+#campos{
+    position: relative;
+    top: 35px;
+    left: 35px;
+    width: 950px;
+    height: 350px;
+    background: #16162e;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    z-index: 0;
+    
+}
+
+#btn,#btnCadastrar{
+    height: 30px;
+    font-family: Lato;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    background: #D29F4E;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+form div#linha{
+    margin-bottom: 0px;
+}
+
+#linha label{
+    margin-top: 20px;
+    font-family: Lato;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    color: #828282;
+}
+
+#linha input{
+    background: #eee;
+    border: 2px solid #eee;
+    border-radius: 2px;
+    height: 11px;
+    padding: 10px 6px;
+    width: 300px;
+}
+
+#Cadastro{
+    margin-top: 40px;
+    position: relative;
+    left: 600px;
+    top: -250px;
+    width: 350px;
+    color: white;
+}
+
+#Cadastro p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 22px;
+}
+
+#Cadastro p1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#Cadastrando{
+    margin-top: 40px;
+    position: relative;
+    left: 600px;
+    top: -350px;
+    width: 350px;
+    color: white; 
+    z-index: 1;
+}
+
+#Cadastrando p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 22px;
+}
+#Cadastrando p1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#btnLogin{
+    position: relative;
+    top: 70px;
+    left: -100px;
+    height: 30px;
+    font-family: Lato;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    background: #0191AB;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#btnCadastro{
+    position: relative;
+    top: 70px;
+    left: -175px;
+    height: 30px;
+    font-family: Lato;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    background: #0191AB;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#share{
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    left: 0px;
+    top: 1110px;
+    background: #ffffff;    
+}
+    
+    #share p{
+        position: absolute;
+        width: 413px;
+        height: 64px;
+        left: 241px;
+        top: 35px;
+        font-family: Lato;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;       
+        color: #020202;
+    }
+    
+    
+    #share ul{
+        position: relative;
+        left: 760px;
+        top:40px;
+        list-style: none;
+        height: 80px;
+    }
+    
+    #share ul li a{
+            display: inline;
+            padding: 0px 20px 20px 40px;
+            width: 100%;
+            color: #000000;
+            
+    }
+    
+    .iconify:hover{
+        color: #FAFF0B;
+    }
+    
+    #share p1{
+        position: absolute;
+        width: 413px;
+        height: 54px;
+        left: 1400px;
+        top: 55px;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 32px;       
+        color: #000000;
+    }
+    
+#mensagem{
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;       
+        color: #ff000d;
+        transition: .2s;
+}
